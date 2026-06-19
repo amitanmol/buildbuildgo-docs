@@ -111,8 +111,8 @@ See the screenshots below.
 
 BuildBuildGo source code is available in .Net Core and Node.js with same features.
 
-.Net Core: https://github.com/amitanmol/BuildBuildGoLive
-Node.js: https://github.com/amitanmol/buildbuildgo
+* .Net Core: https://github.com/amitanmol/BuildBuildGoLive
+* Node.js: https://github.com/amitanmol/buildbuildgo
 
 ## Why Private?
 

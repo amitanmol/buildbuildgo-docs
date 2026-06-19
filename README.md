@@ -92,15 +92,10 @@ See the screenshots below.
 
 ---
 
-## What You Can Explore
+## Future Scope
 
-* Product screenshots
-* Documentation
-* Feature roadmap
-
-## Why Private?
-
-BuildBuildGo is under development. We want to build a strong contributor community while ensuring code quality, security, and a sustainable roadmap.
+* Security & Vulnerability Analysis using Mobile Security Framework (MobSF)
+* AI enabled
 
 ## Code Base
 
@@ -108,6 +103,10 @@ BuildBuildGo source code is available in .Net Core and Node.js with same feature
 
 .Net Core: https://github.com/amitanmol/BuildBuildGoLive
 Node.js: https://github.com/amitanmol/buildbuildgo
+
+## Why Private?
+
+BuildBuildGo is under development. We want to build a strong contributor community while ensuring code quality, security, and a sustainable roadmap.
 
 ## Request Access
 

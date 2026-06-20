@@ -68,6 +68,7 @@ BuildBuildGo
               ▼
         Install On Device
 ```
+![Dashboard](screenshots/buildbuildgo-workflow.png)
 
 ---
 

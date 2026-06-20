@@ -1,25 +1,27 @@
 # BuildBuildGo
 
-### Development, Ad-Hoc and In-House App Distribution. Absolutely Free.
+### Self-Hosted Mobile App Distribution for iOS & Android
 
-BuildBuildGo is an alternative source to TestFlight, Firebase App Distribution and other OTA deployment platforms.
+**Upload. Share. Install.**
 
-Distribute your Development, Ad-Hoc and Enterprise iOS and Android applications directly to testers and internal teams without app store approvals.
+BuildBuildGo is a self-hosted alternative to TestFlight, Firebase App Distribution, and other mobile app distribution platforms.
+
+Distribute Development, Ad-Hoc, Enterprise, and Internal iOS and Android applications directly to testers, QA teams, and employees without App Store approvals or third-party dependencies.
 
 ---
 
 ## Why BuildBuildGo?
 
-Most app distribution platforms are either:
+Most app distribution platforms are:
 
 * Expensive
-* Limited in features
-* Require third-party services
+* Limited by platform restrictions
+* Dependent on third-party services
 * Not self-hostable
 
 BuildBuildGo gives developers complete control over application distribution.
 
-### Features
+### Key Features
 
 ✅ iOS Ad-Hoc Distribution
 
@@ -29,7 +31,7 @@ BuildBuildGo gives developers complete control over application distribution.
 
 ✅ Android AAB Support
 
-✅ OTA Installation
+✅ Over-The-Air (OTA) Installation
 
 ✅ QR Code Installation
 
@@ -45,13 +47,35 @@ BuildBuildGo gives developers complete control over application distribution.
 
 ---
 
-## How It Works
+## Workflow
 
-1. Upload an iOS or Android build.
-2. BuildBuildGo generates an installation page.
-3. Share the installation link or QR code.
-4. Testers install directly on their devices.
-5. Track versions and manage releases.
+```text
+Developer
+    │
+    ▼
+Upload IPA / APK / AAB
+    │
+    ▼
+BuildBuildGo
+    │
+    ├── Generate Install Link
+    │
+    └── Generate QR Code
+              │
+              ▼
+        Share With Testers
+              │
+              ▼
+        Install On Device
+```
+
+---
+
+## Why We Built BuildBuildGo
+
+Distributing development builds should not require complex infrastructure, expensive subscriptions, or platform-specific limitations.
+
+BuildBuildGo was created to provide a simple, self-hosted solution for distributing iOS and Android applications through installation links and QR codes while maintaining complete control over the deployment process.
 
 ---
 
@@ -59,76 +83,133 @@ BuildBuildGo gives developers complete control over application distribution.
 
 ### Mobile Development Teams
 
-Share development builds instantly.
+Share development builds instantly with team members and testers.
 
 ### QA Teams
 
-Distribute builds without App Store delays.
+Distribute builds without waiting for App Store reviews or approvals.
 
 ### Agencies
 
-Manage builds for multiple clients.
+Manage application builds across multiple clients and projects.
 
 ### Enterprise Organizations
 
-Distribute internal applications securely.
+Securely distribute internal applications to employees and departments.
+
+### Self-Hosted Enthusiasts
+
+Maintain complete ownership and control over your mobile app distribution platform.
 
 ---
 
 ## Comparison
 
-| Feature         | BuildBuildGo | TestFlight | Firebase |
-| --------------- | ------------ | ---------- | -------- |
-| Self Hosted     | ✅            | ❌          | ❌        |
-| Free            | ✅            | ❌          | Partial  |
-| Android Support | ✅            | ❌          | ✅        |
-| iOS Support     | ✅            | ✅          | Partial  |
-| QR Installation | ✅            | ❌          | ❌        |
-| Full Control    | ✅            | ❌          | ❌        |
+| Feature               | BuildBuildGo | TestFlight | Firebase App Distribution |
+| --------------------- | ------------ | ---------- | ------------------------- |
+| Self Hosted           | ✅            | ❌          | ❌                         |
+| Free                  | ✅            | ❌          | Partial                   |
+| Android Support       | ✅            | ❌          | ✅                         |
+| iOS Support           | ✅            | ✅          | Partial                   |
+| QR Code Installation  | ✅            | ❌          | ❌                         |
+| Full Control          | ✅            | ❌          | ❌                         |
+| Internal Distribution | ✅            | Limited    | Limited                   |
 
 ---
 
 ## Screenshots
 
-See the screenshots below.
+### Dashboard
 
-![Upload Build](screenshots/1.png)
+![Dashboard](screenshots/1.png)
 
-![Upload Build](screenshots/2.png)
+### Applications
 
-![Upload Build](screenshots/3.png)
+![Applications](screenshots/2.png)
 
-![Upload Build](screenshots/4.png)
+### Build Details
+
+![Build Details](screenshots/3.png)
+
+### Installation Page
+
+![Installation Page](screenshots/4.png)
 
 ---
 
-## Future Scope
+## Roadmap
 
-* Security & Vulnerability Analysis using Mobile Security Framework (MobSF)
-* AI enabled
+### Completed
 
-## Code Base
+* [x] iOS Ad-Hoc Distribution
+* [x] iOS Enterprise Distribution
+* [x] Android APK Distribution
+* [x] Android AAB Support
+* [x] QR Code Installation
+* [x] Release Notes
 
-BuildBuildGo source code is available in .Net Core and Node.js with same features.
+### Planned
 
-* .Net Core: https://github.com/amitanmol/BuildBuildGoLive
-* Node.js: https://github.com/amitanmol/buildbuildgo
+* [ ] Team Management
+* [ ] Advanced Team Permissions
+* [ ] Mobile Security Framework (MobSF) Integration
+* [ ] Security & Vulnerability Analysis
+* [ ] AI-Powered Build Insights
+* [ ] Installation Analytics
+* [ ] Docker One-Click Deployment
+* [ ] SSO Integration
+* [ ] Public REST API
 
-## Why Private?
+---
 
-BuildBuildGo is under development. We want to build a strong contributor community while ensuring code quality, security, and a sustainable roadmap.
+## Available Implementations
 
-## Request Access
+BuildBuildGo is currently maintained in multiple technology stacks:
 
-The source code is currently maintained in a private repository.
+### ASP.NET Core
 
-We are welcoming:
+Private Repository
+
+### Node.js
+
+Private Repository
+
+Source access is available to approved contributors and reviewers.
+
+---
+
+## Source Code Access
+
+BuildBuildGo is currently maintained in private repositories while the project matures and prepares for broader community collaboration.
+
+We are actively looking for:
 
 * Contributors
-* Security reviewers
-* Enterprise partners
-* Self-hosting testers
+* Security Reviewers
+* Self-Hosting Testers
+* Enterprise Partners
+* Documentation Contributors
 
-If you are interested in contributing or reviewing the codebase, please open a discussion or contact us through mail: amit.aanmol@gmail.com.
+If you are interested in contributing, reviewing the architecture, testing deployments, or collaborating on the project, please open a GitHub Discussion or contact us.
 
 Access requests are reviewed individually.
+
+---
+
+## Contributing
+
+Community feedback, feature requests, bug reports, and collaboration ideas are always welcome.
+
+If you'd like to help shape the future of BuildBuildGo, feel free to open an Issue or Discussion.
+
+---
+
+## License
+
+License details will be announced when the public release strategy is finalized.
+
+---
+
+### Build Once. Share Anywhere.
+
+Mobile app distribution made simple.
